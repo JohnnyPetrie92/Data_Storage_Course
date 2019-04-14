@@ -24,13 +24,14 @@ for i in list:
 print(greatest)
 
 
-Determine if a string is a Palindrome: 
-myFunction = str(input("Please enter a word:"))
-for n in str():
-    if str(n) == str(n)[::-1]:
+def define_palindrome():
+    word = str(input("Please enter a word:"))
+    if word.upper() == word.upper()[::-1]:
         print("this is a Palindrome")
-else:
+    else:
         print("This word is not a Palindrome")
+
+define_palindrome()
 
 
 Determine how many vowels in a string:
