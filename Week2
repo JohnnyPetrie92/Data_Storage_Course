@@ -1,0 +1,28 @@
+Strong Entities: 
+Departments, Employees, Titles, Salaries
+
+Weak Entities: 
+Dept_emp, dept_manager
+
+Data Types: 
+INT, CHAR, VARCHAR(40), DATE, ENUM
+
+Primary Keys: 
+Employees - emp_no 
+Departments - dept_no 
+Salaries - from_date 
+Titles - title 
+
+Foreign Keys: 
+Salaries - emp_no 
+Titles - emp_no 
+Dept_Manager - dept_no, emp_no 
+dept_Emp - emp_no, dept_no 
+
+Create the tables course, with fields: 
+
+Create table Courses: 
+(Course_ID INT, Course_name VarChar(50), Course_desc VarChar(50)); 
+
+Add the field 'Course_Day': 
+Alter table Courses add course_day Date; 
