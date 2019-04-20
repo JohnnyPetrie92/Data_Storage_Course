@@ -19,6 +19,14 @@ Titles - emp_no
 Dept_Manager - dept_no, emp_no 
 dept_Emp - emp_no, dept_no 
 
+
+Patient:                      Prescription:                     Lens: 
+PK - Patient_ID               PK- Percription_ID                PK - Lens_ID
+Age - Int                     Astigmatism - VarChar(50)         FK - Percription_ID
+FK- Percription_ID            FK- Patient_ID
+Tear_Production - VarChar(50) FK- Lens_ID
+
+
 Create the tables course, with fields: 
 
 Create table Courses: 
