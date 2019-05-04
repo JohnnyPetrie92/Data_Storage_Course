@@ -34,6 +34,30 @@ There is no join command for the tables Employees and Salaries
  HAVING AVG(salaries.salary) > 10000
  GROUP BY employee.emp_no
 
+What is the difference between a relational data model and a data warehouse?
+Data Warehouses store many years of data (5-10) that stores analytical data.  
+A RDMS hold rows and columns stored in tables which can be queried faster for transactional data. 
+
+ Can you tell when to use a data warehouse rather than a normalized database?
+When large amounts of unstructured data is involved that is to be stored for many years, a Data Warehouse is more feasible.
+
+ Which are the data warehouse phases?
+Operational databases use ETL (Extract, Transform, Load) into the Data warehouse, where it then uses an OLAP server to 
+provide analytical reports/functions to front end users. 
+
+ Can you list the importance of the staging phase?
+The staging phases consits of ETL and Data staging that handles the incoming raw data from external and internal sources that 
+are held within the Operational Databases. Without proper Data Staging, the Data Warehouse would not properly store and retrieve 
+information, as there could be data integrity failures. 
+
+Multidimensional OLAP Table: 
+
+Fact - Reports 
+      PK- Revenue_ID 
+      PK - Sales_ID 
+      PK- Employee_ID 
+      PK - Product_ID
+
 https://medium.com/iotforall/iot-offers-a-fresh-solution-for-tackling-food-waste-in-the-supply-chain-b82054e039c7
 
 The article I chose to report on this week is related to IoT trying to diminish a growing problem we are facing - food waste. 
