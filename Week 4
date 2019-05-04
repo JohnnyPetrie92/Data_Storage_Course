@@ -1,0 +1,43 @@
+ Return all salaries that are between 40000 and 60000
+
+select * from salaries where salary >= 40000 and <= 60000
+
+ Select all employees hired after 01-01-1995
+
+Select * from employees where hire_date >= 1995-01-01 
+
+ Select all the valid titles names (with to_date = 01-01-9999). Add an extra column
+written “valid” for the ones with to_date = 01-01-9999, and “not valid” for the ones with
+different to_date values
+
+ Select all titles where title is equal to engineer
+
+Select * from titles where title = 'engineer'
+
+ Return the minimum salary of the salary table
+
+Select Min(Salary) from Salaries 
+
+ What is the difference between “Having” and “Where” clauses
+
+The "Having" clause returns values for aggregate functions, the "Where" clause returns values that match the criteria 
+
+ Return the maximum value for date of birth on the employee table
+
+Cannot return MAX value for column with value DateTime
+
+ What is wrong with the following query, re-write it making the needed corrections.
+ SELECT employee.emp_no, AVG(salaries.salary)
+There is no join command for the tables Employees and Salaries 
+-> Inner join salary.salaries on employee.emp_no 
+ FROM employee INNER JOIN salaries AT employee.emp_no = salaries.emp_no
+ HAVING AVG(salaries.salary) > 10000
+ GROUP BY employee.emp_no
+
+https://medium.com/iotforall/iot-offers-a-fresh-solution-for-tackling-food-waste-in-the-supply-chain-b82054e039c7
+
+The article I chose to report on this week is related to IoT trying to diminish a growing problem we are facing - food waste. 
+Part of green house gas emmission stems from wasted food products that end up in landfills, however new technologies with IoT 
+have been created to reduce the waste. Technologies such as sensors and predicitive articifical intelligence can determine root cause 
+of food waste. Temperature monitors held inside packages can also monitor when food should be delivered or soon to expire, which 
+can help target where delivery of certain foods can go, in order to be quickly bought from groceries, instead of thrown out on arrival. 
