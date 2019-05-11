@@ -1,0 +1,46 @@
+Which file structure will be more close to a relational database?
+CSV because it hold easy to read and upload formats of Columns and Rows
+
+ Is AVRO the same thing as JSON, what is the difference?
+JSON scripting is used for object-oriented data objects, and Avro is more of a serialized data scripting tool in Hadoop Systems. 
+
+ What is the difference between PARQUET and a delimited file type?
+Parquest is orgainzed more through columns and is better for data compression. 
+Delimited files are less structured and are organized through rows and columns 
+
+ Which kind of compression algorithm allows to consume data using parallel processing?
+Bzip2
+
+Define a scenario where ACID properties are needed, enlist 3 reasons why.
+POS terminals that use ACID properties. 
+1) During a transaction if data gets corrupted the transaction is terminated 
+2) Transactions are treated individually 
+3) Terminals have last known state installed should a crash occur
+
+ Definie a scenario where BASE properties are needed, enlist 3 reasons why.
+Stock Market systems would use BASE. 
+1) Stocks change price throughout the day 
+2) The data will become consistent at the end of the day 
+3) Allows for inaccuries in prices during the day 
+
+Your client wants to find potential clients based on their locations or interests, what
+would you suggest?
+Graph Based 
+
+ You need to store the logs from your billing system in a way that they will become easy to
+access.
+Document 
+
+ You want to analyze the most accessed site of your e-commerce platform over the time.
+Where would you store the data?
+Key Value
+
+ You want to store the inventory of your website contents per endpoints. The page
+contents will be labelled with the page endpoint accessed, for quick access. Which
+database solution you would choose?
+Column
+
+ You have to store financial information about your clients, such as balance account and
+personal information. Which one you will use?
+Document
+
