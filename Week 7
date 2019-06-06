@@ -1,3 +1,26 @@
+• List all types of databases that we have seem so far, giving utilisation examples
+Relational DB (Banking) , KeyValue (e-commence website linking data points), Graph (finding relations between targets, ex. Social Media),
+NoSQL, Columnar (helps on historical data), (Documentation for sales files),  NewSQL
+
+• What CAP stands for? Cite each subgroup with a scenario example on when to use each
+Consistency, Availability and Partition (CAP), CA, CP, AP
+
+•Give a business scenario where Base properties are important, give another for Acid
+Scenario for BASE: IoT, streaming, sensor-data /
+
+• List the types of file structures, mentioning the best use cases
+Parquet (Big Data), Avro (Big Data), JSON, CSV
+
+• Which types of joins exists on a relational database
+Inner, Outer, Left, Right, Full
+
+• When Data Manipulation Language is used? How is it different than Data Definition Language?
+DML -> working with data and executing queries / DDL -> Reforming structure of data
+
+• What is the difference between a datawarehouse and a transactional database?
+Data Warehouse -> stores data not time variance, business domain / Transactional -> Time variance and event related
+
+
 What is devops and, from your perspective, which could be the gains of using it?
 
 DevOps is a phase of software practices and tools that are used in information systems and software development. 
