@@ -1,0 +1,6 @@
+Which file structure will be more close to a relational database?
+Acid 
+ Is AVRO the same thing as JSON, what is the difference?
+Avro is more row related structure that is used in write operations between nodes
+ What is the difference between PARQUET and a delimited file type?
+ Which kind of compression algorithm allows to consume data using parallel processing?
