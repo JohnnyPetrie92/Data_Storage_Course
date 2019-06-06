@@ -1,6 +1,49 @@
-Which file structure will be more close to a relational database?
-Acid 
- Is AVRO the same thing as JSON, what is the difference?
-Avro is more row related structure that is used in write operations between nodes
- What is the difference between PARQUET and a delimited file type?
- Which kind of compression algorithm allows to consume data using parallel processing?
+Why CRISP-DM is necessary?
+
+
+ A company is using OCR (Optical Character Recognition) to be able to store into a
+database their physical documents inventory. The focus is to have data integrity, even if
+it costs to not be available all the time. Please inform which CAP subdomain and
+technology it could be choose.
+The best CAP subdomain to use would be CP, as you would need the data to be consistent for data integrity
+and operating in case of node failures. 
+
+
+
+ A company needs to store all the analytical interaction data of an e-commerce platform.
+Due the to process the data on a streaming mode, the system needs to be available all
+the time even if it costs the data consistency. Please inform which CAP subdomain and
+technology it could be choose.
+
+The best CAP subdomain would be the AP, as it would need to be available at all times and in the presense of node failures, 
+despite not having great data consistency. 
+
+ You was called to create an MDM (Master Data Management) platform to be used on fraud
+cases. This data will be used as referential data to cross validate with the clients
+interactions. It needs to be consistent and available. Please inform which CAP subdomain
+and technology it could be choose.
+
+The best CAP subdomain to use would be CA as the data needs to be consistent and available at all times. 
+
+ Give extra examples of business problems for each of CAP subdomains
+CA - Financial reports 
+CP- E-commerce website
+AP - Stock Market Exchange
+
+Problem1
+Servers generate a large number of events (i.e. logging,) that contain useful information about their
+operation including errors, warnings, and users behaviour. Choose a solution to store this data focusing on the optimal data retrieval.
+
+The data should be stored and compressed into smaller file sizes and saved to a backup server. Most database file logs are text files, 
+so organizing them by title and date into subfolders can be programmed to be backed up everynight and stored either locally on 
+harddrives or a server. 
+
+
+Article: Microsoft Quietly Deletes Largest Public Face Recognition Data Set
+https://medium.com/financial-times/microsoft-quietly-deletes-largest-public-face-recognition-data-set-10b95c288f22
+
+Very interesting article about Micrsoft deleting 10 million user faces that was generated to help a facial recogntion program 
+undergo machine learning, however was found to go against the GDPR as people did not provide consent and the program was being taught to 
+help recognize and detect individuals. As well, other research firms have been ordered to delete their records of faces 
+which was caught by a Berlin research firm. 
+
