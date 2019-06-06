@@ -1,0 +1,28 @@
+What is devops and, from your perspective, which could be the gains of using it?
+
+DevOps is a phase of software practices and tools that are used in information systems and software development. 
+DevOps can be very beneficial as the the procedure involves micro services and batching programs together in order to improve
+business processes and can lead to growth. 
+
+- Which are the devops phases?
+
+The flows are mixed together however it would begin with: Planning, Code, Build, Test & Deploy, Operate, Monitor 
+But the flow would lead back to the beginning with Planning. 
+
+- What is continuous integration, why is it so important?
+
+Continous interegation involves building and developing with the software being used for specific purpose, 
+but ensuring testing and review is done continuously throughout the process. 
+
+- Can we have devops mindset on a non agile project?
+
+You can have Agile project with DevOps mindset as both would use continous intergration and review of processes along the 
+way of the project. 
+
+
+Article: 7 Habits of Effective DevOps 
+https://enterprisersproject.com/article/2017/8/7-habits-highly-effective-devops
+
+In this article the author describes that technology is rapidly changing and business and individuals need to maintain 
+focus and adapt to change. He advises that companies should make it a KPI to invest in employee knowledge and help train on new systems 
+and features to technology. Time should be used to invest in proper technology and testing before bringing it to production. 
