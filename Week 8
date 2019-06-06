@@ -1,0 +1,6 @@
+db.american_movies.find({genres:"Drama"})
+db.users.insertOne({name:"john", email_address:"test@gmail.com"})
+db.reviews.insertMany([{user_id:123}, {user_id:234}, {user_id:345}])
+
+b.reviews.insertMany([{article:"book1"},{article:"book2"}, {article:"book3"}])
+db.reviews.insertOne({user_id:1234})
